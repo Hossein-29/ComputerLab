@@ -1,7 +1,7 @@
 using System;
 namespace Name
 {
-    Class Car {
+    Class Person {
         public Int CarId;
         public String CarName;
     }
