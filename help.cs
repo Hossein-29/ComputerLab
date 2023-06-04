@@ -12,6 +12,7 @@ namespace Name
             
 }
 Console.WriteLine("noooooooooooooooooooooooooo");
+List<int> values = new List<int>();
         }
     }
 }
