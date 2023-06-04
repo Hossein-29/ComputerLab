@@ -1,18 +1,17 @@
 using System;
 namespace Name
 {
+    Class Person {
+        public Int Id;
+        public String Name;
+    }
+    
     Class P
     {
         static public class Main() {
-            Console.WriteLine("hello hossein :D");
-            for(int i =0; i< 10; i++){
-            Console.WriteLine(i);
-
             
-}
-int n = 56;
-Console.WriteLine("noooooooooooooooooooooooooo");
-List<int> values = new List<int>();
+
+
         }
     }
 }
