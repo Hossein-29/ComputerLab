@@ -11,6 +11,7 @@ namespace Name
 
             
 }
+int n = 56;
 Console.WriteLine("noooooooooooooooooooooooooo");
 List<int> values = new List<int>();
         }
