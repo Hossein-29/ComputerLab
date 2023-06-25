@@ -9,7 +9,7 @@ namespace Name
     {
         static public class Main() {
             
-
+        
 
         }
     }
