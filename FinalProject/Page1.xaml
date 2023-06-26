@@ -1,0 +1,38 @@
+﻿<Page x:Class="FinalProject.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FinalProject"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800" Width="1250" Height="650" Background="White"
+      Title="Page1">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="19.389"></RowDefinition>
+            <RowDefinition Height="20.611"/>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="1200"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="welcome to second page.  ID , name, family in order : " FontSize="30" Foreground="Red">
+        </Label>
+
+        <TextBox Name="id" Grid.Row="1" FontSize="30"></TextBox>
+        <TextBox x:Name="name" Grid.Row="2" FontSize="30" Grid.RowSpan="2"></TextBox>
+        <TextBox Name="family" Grid.Row="4" FontSize="30"></TextBox>
+        <Button Grid.Row="5" Width="100" Background="PaleVioletRed" Content="Click Here" FontSize="21" Click="Button_Click" Margin="113,2,587,1198" Grid.RowSpan="2"></Button>
+        <Button Width="100" Content="Main Page" Background="Aqua" Click="Button_Click_1" Margin="362,131,338,29"/>
+        <ComboBox x:Name = "comboBox1" HorizontalAlignment = "Left"
+         Margin = "80,153,0,0" VerticalAlignment = "Top" Width = "120"
+         >
+            
+        </ComboBox>
+        <Button Content="Update ComboBox" Background="Azure" HorizontalAlignment="Left" Margin="534,0,0,0" Grid.Row="5" VerticalAlignment="Center" Height="41" Width="116" Click="Button_Click_2"/>
+        <Label Content="res" Name="ll" HorizontalAlignment="Left" Margin="89,71,0,0" VerticalAlignment="Top" Height="27" Width="632"/>
+
+    </Grid>
+</Page>
